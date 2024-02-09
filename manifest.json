@@ -1,0 +1,10 @@
+{
+    "manifest_version": 3,
+    "name": "Easy Screen Recording",
+    "description": "A basic free screen recording extension for Chrome",
+    "version": "1.0.0",
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": "multimedia.png"
+    }
+}
