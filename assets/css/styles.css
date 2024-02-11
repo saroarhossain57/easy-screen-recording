@@ -1,0 +1,67 @@
+/* Theme color #273c75 */
+/* Secondery color #e84118 */
+
+*, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+.evr-container {
+    width: 400px;
+}
+.evr-header {
+    background-color: #273c75;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.evr-logo {
+    display: flex;
+    align-items: center;
+}
+.evr-logo img {
+    width: 28px;
+    margin-right: 10px;
+}
+.evr-logo h1 {
+    font-size: 18px;
+    color: #fff;
+    font-weight: 400;
+}
+.evr-button {
+    padding: 5px 11px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    background-color: #e84118;
+    color: #fff;
+    font-size: 13px;
+}
+.evr-footer {
+    background-color: #e84118;
+    color: #fff;
+    text-align: center;
+    padding: 12px;
+}
+.evr-footer p {
+    font-weight: 600;
+    line-height: 1.5em;
+    font-size: 14px;
+}
+.evr-contents {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 40px;
+}
+.evr-record-button {
+    font-size: 23px;
+    font-weight: 600;
+    padding: 18px 30px;
+    text-transform: uppercase;
+}

@@ -5,6 +5,19 @@
     "version": "1.0.0",
     "action": {
         "default_popup": "popup.html",
-        "default_icon": "multimedia.png"
+        "default_icon": "assets/images/multimedia.png"
+    },
+    "permissions": [
+        "desktopCapture",
+        "tabs",
+        "activeTab",
+        "scripting",
+        "windows"
+    ],
+    "host_permissions": [
+        "*://*/*"
+    ],
+    "background": {
+        "service_worker": "assets/js/background.js"
     }
 }

@@ -1,0 +1,8 @@
+
+
+- Will build the video recording feature.
+- Will be create a separate prompt.html page with React to list the videos from google drive with pagination.
+- This prompt page will show all the videos in the google drive recorded by this extension.  
+- There will have login feature with google drive api and if Oauth2 possible implement otherwise use basic api authen.
+- There will be system to change google drive api authen system to connect with another drive account.
+- There should have feature to take system sound so it can take sound from other person in google meeting or slack, skype calls.
